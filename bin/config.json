@@ -1,0 +1,76 @@
+{
+  "port": 3000,
+  "muteStartup": false,
+  "quietHours": {
+    "enabled": false,
+    "start": "22:00",
+    "end": "08:00"
+  },
+  "maxResponses": 5,
+  "conversation": {
+    "audio": {
+      "encodingIn": "LINEAR16",
+      "sampleRateIn": 16000,
+      "encodingOut": "LINEAR16",
+      "sampleRateOut": 24000
+    },
+    "lang": "en-US",
+    "screen": {
+      "isOn": false
+    }
+  },
+  "users": [
+    {
+      "name": "techsudhagar@gmail.com",
+      "secret": {
+        "installed": {
+          "client_id": "17456071465-oc89elke07ghhr55dbivelobqll4fpjr.apps.googleusercontent.com",
+          "project_id": "sun-smart-home-300822",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://oauth2.googleapis.com/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_secret": "OIG3oqcgwQXkVY4JVSIUQLn9",
+          "redirect_uris": [
+            "urn:ietf:wg:oauth:2.0:oob",
+            "http://localhost"
+          ]
+        }
+      },
+      "tokens": {
+        "access_token": "ya29.a0AfH6SMCfNQjBWcUY7s19svy5ONgwyA5_Am3TARl4Va13INf3GB48b-UCBceV0E4xXSC90VuGsFAtf9JIm1bITNhwERGG0wlKxf_kvWhYwFkgLXOyEqjjvaKNOm_MO00YWLIHTuxurIpRJ6eOikp3VFm-pUGKLZyPmVkWkqw1YS0",
+        "refresh_token": "1//043nLhhnhjdd8CgYIARAAGAQSNwF-L9Ir-yvGVamMpTK3ITMbSGopHD-OIIQ8REFcklo_PMN6ZlWiVCxEHzwMYgpzvuAu1G3THjo",
+        "scope": "https://www.googleapis.com/auth/assistant-sdk-prototype",
+        "token_type": "Bearer",
+        "expiry_date": 1612291731636
+      }
+    }
+  ],
+  "responses": [
+    {
+      "command": "Whats the time",
+      "response": "",
+      "timestamp": 1612288173150
+    },
+    {
+      "command": "Whats the time",
+      "response": "",
+      "timestamp": 1612288351808
+    },
+    {
+      "command": "Whats the time",
+      "response": "",
+      "timestamp": 1612288372711
+    },
+    {
+      "command": "stop",
+      "response": "",
+      "timestamp": 1612288428103
+    },
+    {
+      "command": "whats the time",
+      "response": "",
+      "timestamp": 1612288519382
+    }
+  ],
+  "devices": []
+}
